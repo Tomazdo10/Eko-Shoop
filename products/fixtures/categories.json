@@ -1,0 +1,34 @@
+[
+    {
+        "pk": 1,
+        "model": "eko_shoop.categories",
+        "fields": {
+            "name": "items",
+            "friendly_name": "All items"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "eko_shoop.categories",
+        "fields": {
+            "name": "price",
+            "friendly_name": "By Price"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "eko_shoop.categories",
+        "fields": {
+            "name": "ratings",
+            "friendly_name": "By Rating"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "eko_shoop.categories",
+        "fields": {
+            "name": "categories",
+            "friendly_name": "By Category"
+        }
+    }
+]
