@@ -1,0 +1,362 @@
+[{
+        "pk": 1,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Dead-Sea-Salt",
+            "description": "The Dead Sea is the most saline body of water in the world with far greater concentrations of minerals than any ocean a concentration of 32% minerals compared to other seas, holding approximately 3%. Bromides and Iodine are known to be present in Dead Sea Salt, along with other minerals in a dried form, such as Magnesium, Sodium, Calcium and Potassium. All these minerals are believed to work together to assist in relaxing the body and soothes to provide a sense of well being.",
+            "price": 10.99,
+            "rating": 3.9,
+            "image_url": "http://www.ideahacks.com/wp-content/uploads/2017/12/Dead-Sea-Salt.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Silicone Baking Mat",
+            "description": "Say goodbye to aluminum foil, parchment & wax paper!Super easy to clean high temperature ready silicone baking and grilling sheet.",
+            "price": 8.99,
+            "rating": "4.5",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/SiliconeBakingmat_900x.jpg?v=1612547565"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Fork-Bambu",
+            "description": "Bamboo Forks perfect for school lunches and on the go eating.",
+            "price": 5.99,
+            "rating": "4.6",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/IMG_20201219_180150_900x.jpg?v=1608419150"
+        }
+    },
+    {
+        "pk": 4,
+         "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Bamboo-Travel-Utensil-Set",
+            "description": "This beautifully finished cutlery set is perfect for taking on picnics, eating in the garden or simply taking lunch to work. Each utensil is made from a single piece of bamboo, then hand shaped and finished. Bamboo is more durable than wood and is heat & stain resistant.",
+            "price": 15,
+            "rating": "4.8",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/Bamboo-Travel-Utensil-Set-Cork-Case__18824.1550012132_900x.jpg?v=1608220040"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "SunRoastedTomato_Fennel",
+            "description": "Don’t have time to get away? This bright and aromatic spice rub with refreshing fennel, fragrant rosemary and savoury sun roasted tomato will whisk you and your dinner off to wine country. Try it as a dry rub for grilled pork, chicken or your favourite plant-based protein, or stir it into a vinaigrette for a refreshing twist on your go-to salad. We even love it tossed with olive oil and roasted veggies. Throw in a glass of cabernet and dinner is pretty much done. Sustainable packaging: Tubes are made from wood pulp, are BPA-free and printed with vegetable-based ink (soybeans). The bags inside the tubes are fully compostable.",
+            "price": 10 ,
+            "rating": "4.7",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/SunRoastedTomato_Fennel_720x.jpg?v=1606800261"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "ChaTea_Infuser",
+            "description": "Tea Infuser, laser cut stainless steel. Ideal for single cups and teapots. Holds up to 5 tbsp / 75g of loose tea. Dishwasher safe",
+            "price": 9.99,
+            "rating": "4.3",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/ChaTea_Infuser_900x.jpg?v=1608224297"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Coffee Scrub Soap",
+            "description": "An exfoliating bar for face and body removing dry skin, softening and promoting healing from acne and scars. A very moisturizing and healing bar with carefully ground up coffee to stimulate blood circulation while exfoliating dry skin. Infused with rosehip, avocado, shea, coconut and grapeseed oils to add moisture and repair the skin from acne and scarring while stimulating collagen. Coconut milk and kaolin clay are additional sidekicks for a deep clean and soothing feeling.",
+            "price": 3.99,
+            "rating": "3.9",
+            "image_url": "https://img0.etsystatic.com/000/0/6855067/il_fullxfull.342736086.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Hempnestingbasket",
+            "description": "Reduce your use of plastic. Organize your counters with these stylish hemp baskets.Great for makeup, cloth makeup removers, pill bottles etc. ",
+            "price": 15,
+            "rating": "4.2",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/Hempnestingbasket-blck_900x.jpg?v=1614739001"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "LintBrush",
+            "description": "Redecker's lint brush removes lint, dandruff, dust, and animal hair from clothing, furniture, or upholstery. The all-natural rubber brush is charged by friction and attracts hair, lint and dust like a magnet. Clean simply by hand, or rinse in water.Made with oiled beechwood and natural rubber.",
+            "price": 30,
+            "rating": "4.8",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/Redecker_LintBrush_900x.jpg?v=1595699486"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Glass Bottles",
+            "description": "Eco-friendly alternative to imported premium bottled water. Similar taste profile and mouthfeel",
+            "price": 19.99,
+            "rating": "5.0",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/Bubbas2_900x.jpg?v=1593895293"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Levanta Cola, Push-Up Jeans",
+            "description": "Feel yourself super Sexy and Glamorous. M.Michel jeans seductively hug a woman’s feminine silhouette. The Jean is the perfect transition piece to wear from casual to party! M.Michel are the number one push-up jeans in the market with the wonder push-up effect, combined with a wide variety of washes and fit type",
+            "price": 49,
+            "rating": "4.8",
+            "image_url": "https://diamantejeans.com/images/detailed/10/SKP-SSP-N2275-R_LIGHT_BLUE_02_u6l3-ze.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Eko Dishwasher Tablets",
+            "description": "Love produces all natural, waste free cleaning products.  Their formulations have been researched endlessly to provide customers with a product that not only works, but gives them the ability to keep their house clean in a waste free way.  All of Earth Love’s products are in tablet form and are packaged in compostable materials. ",
+            "price": 10,
+            "rating": "4.6",
+            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/DishwashingTablets_900x.jpg?v=1587229437"
+        }
+    },
+    {
+        "pk": 13,
+         "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "T-shirt",
+            "description": "This short-sleeve heavyweight T-shirt is comfortable, economical and made to last. Designed with a traditional fit that runs true to size, he’ll show off his personality",
+            "price": 15,
+            "rating": "4.6",
+            "image_url":"https://i.ebayimg.com/images/g/BpgAAOSwLq5arI7C/s-l640.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "eko_shop",
+        "fields": {
+            "category": 1,
+            "name": "Lunch Bag",
+            "description": "The soft shell lunch bag that fits easily into your purse/backpack/tote that keeps in spills and washes easily",
+            "price": 32.99,
+            "rating": "4.6",
+            "image_url": "https://ae01.alicdn.com/kf/HTB1Xc3KQVXXXXcRXVXXxh4dFXXXC/New-2021-Fashion-Stripe-Cooler-Insulated-Tote-Lunch-Bag-Women-Children-Zipper-Cold-Thermal-Food-Bag.jpeg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Natural Sea Sponge",
+            "description": "Natural sponge, with cotton strap This quality natural sponge is from the Mediterranean and was harvested by hand. Rinse with clean water after each use, gently squeeze dry, and hang up to air dry. Please don’t ever wring it out. Heavily soiled natural sponges can also be washed in the machine up to a maximum of 30 degrees Celsius or disinfected with 70% medicinal alcohol (Isopropanol) – of course, natural sponges are not machine-washable in hot water.",
+            "price": 9.90,
+            "rating": "4.8",
+            "image_url":"https://www.toppersonalcareproducts.com/images/24496/Luxury-Natural-Sea-Wool-Bath-Sponge-4-4-5-in-a-Real-Hand-Made-Fishing-Net-a-Natural-Renewable-Resource-8.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Levander body soap",
+            "description": "Ingredients: coconut oil, canola oil, avocado oil, olive oil, shea butter, pink kaolin clay, madder root powder, essential oil blend All items are small batch hand-made",
+            "price": 3.99,
+            "rating": "4.0",
+            "image_url":"https://cdn.shopify.com/s/files/1/0265/5513/products/lavender-2015-fnt.png?v=1446077827"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Hemp Tea Towels",
+            "description": "Tea towel made with a beautiful 100% hemp woven (jacquard) fabric with natural colour and a beautiful texture. Hemp is more absorbent than cotton, dries quickly, and is a very sustainable material.",
+            "price": 9.90,
+            "rating": "4.2",
+            "image_url":"https://img0.etsystatic.com/130/0/5222200/il_fullxfull.1009431658_3umi.jpg"
+        }
+    },
+    {
+        "pk": 18,
+       "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Beeswax Wraps",
+            "description": "Handmade beeswax food wraps are a sustainable alternative to single-use plastic. Use it to cover your leftovers in the fridge, half a lemon, your avocado, cucumbers, your bread and more. Fold the medium size sheet into a pocket to carry your dry snacks around.",
+            "price": 6.99,
+            "rating": "5.0",
+            "image_url":"https://1.bp.blogspot.com/-XoQzJx2jw0k/Wr91vd6tPGI/AAAAAAAApy0/LvsGt3w0QsAPtSQpsi7jsCPyvztNxA6wwCLcBGAs/s1600/lunch%2B2.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Bamboo Toothbrush",
+            "description": "Made from organically grown bamboo, this is an eco-friendly toothbrush with 100% biodegradable handle ",
+            "price": 10.99,
+            "rating": "4.8",
+            "image_url":"https://cdn.shopify.com/s/files/1/0119/7352/5561/products/B07D4QP3SN_2048x.jpg?v=1559246364"
+        }
+    },
+    {
+        "pk":20,
+      "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Reusable Stainless Steel Straws",
+            "description": "This reusable straw pack contains 4 bent rainbow coloured straws, 4 straight rainbow coloured straws, a straw cleaning brush and are packaged inside a natural hessian bag for your convenience.Did you know that five billion disposable plastic straws are used and discarded every year?",
+            "price": 8.99,
+            "rating": "4.5",
+            "image_url":"https://ecoripples.com/wp-content/uploads/2019/03/reusable-stainless-steel-straws.jpg"
+        }
+    },
+    {
+        "pk": 21,
+       "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Bamboo Men's Shaving Set",
+            "description": "For anyone looking to get started with waste-free natural shaving this is for you!",
+            "price": 25.99,
+            "rating": "4.8",
+            "image_url":"https://sc02.alicdn.com/kf/HTB1SltlwVooBKNjSZPh7632CXXaV/231848815/HTB1SltlwVooBKNjSZPh7632CXXaV.png"
+        }
+    },
+    {
+        "pk": 22,
+       "model": "eko_shop",
+        "fields": {
+            "category": 1,
+            "name": "organic-cotton-mesh-produce-bag",
+            "description": "This pack of 3 great value organic cotton produce bags are designed for carrying fresh fruit or vegetables from the supermarket, market or farm shop and storing them at home. They also make an excellent plastic-free gift (if you can bear to part with them!).",
+            "price": 15.99,
+            "rating": "4.5",
+            "image_url":"https://www.ethicalernie.co.uk/wp-content/uploads/2019/01/organic-cotton-mesh-produce-bag-large-34-x-38cm.jpg"
+        }
+    },
+    {
+        "pk": 23,
+       "model": "eko_shop",
+        "fields": {
+            "category": 1,
+            "name": "ECOFFEE SOFTAIL SHORT REUSABLE INSULATED CANISTER - 500ML",
+            "description": "This stainless steel insulated Hot/Cold reusable canister is both useful and beautiful: a design classic for our times.The Softail insulated canister from Ecoffee comes in 3 stunning colours - which one to choose! It has a wide open mouth to fit a spoon for hot/cold snacks on the go. There is also a disc of silicone on the bottom to provide a non-slip base.",
+            "price": 15.99,
+            "rating": "4.2",
+            "image_url":"https://cdn.shopify.com/s/files/1/1604/3545/products/ecoffee-food-storage-kerr-napier-ecoffee-softail-short-reusable-insulated-canister-500ml-andkeep-15354143080519_1024x1024.jpg?v=1601825549"
+        }
+    },
+    {
+        "pk": 24,
+         "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Large Washing Up Soap Bar",
+            "description": "Say goodbye to those plastic washing-up liquid bottles, forever! Clean your dishes, pots and pans the eco-friendly way without harming the environment. Powered by organic plant-based ingredients that are tough on grease yet gentle to your hands. So mild the rinse water can be used on your plants! ",
+            "price": 9.50,
+            "rating": "4.5",
+            "image_url":"https://i0.wp.com/societyzero.co.uk/wp-content/uploads/2020/05/eco-living-dish-soap-bar-scaled.jpg?fit=2560%2C1625&ssl=1"
+        }
+    },
+    {
+        "pk": 25,
+       "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Palm Tree Coconut Bowl",
+            "description": "These stylish coconut shell bowls are not only stunning to look at and great to eat from but you will know you've helped the environment in a multitude of ways.",
+            "price": 5.99,
+            "rating": "4.8",
+            "image_url":"https://assets.bigcartel.com/product_images/228913436/3A6ECFC9-C36B-45B3-9912-95A576A974DE.jpeg?auto=format&fit=max&h=1200&w=1200"
+        }
+    },
+    {
+        "pk": 26,
+       "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Bamboo Cotton Buds",
+            "description": "These natural bamboo cotton buds are 100% biodegradable. No more plastic sticks floating in the seas or washed up on the beaches.",
+            "price": 2.50,
+            "rating": "4.5",
+            "image_url":"https://tse1.mm.bing.net/th?id=OIP._vIt7KDTCtAaksBNDFRy3wHaHa&pid=Api&P=0&w=300&h=300"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Biodegradable Tape",
+            "description": "This paper tape is the perfect alternative to plastic sticky tape. You can use it for wrapping presents, sealing boxes, sticking things to walls, and everything else you would normally use plastic tape for!",
+            "price": 3.50,
+            "rating": "4.2",
+            "image_url":"https://tse2.mm.bing.net/th?id=OIP.GCRG44-4Dadd2TaHasA0oAAAAA&pid=Api&P=0&w=223&h=177"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Recycling Wrraping Papper",
+            "description": "This beautiful wrapping paper has been made in the UK entirely from post consumer waste with pulp that has not been bleached. The 100gsm recycled paper is also uncoated and the stunning design is printed in the UK using eco-friendly vegetable inks. It is fully recyclable.",
+            "price": 2.50,
+            "rating": "4.2",
+            "image_url":"https://tse4.mm.bing.net/th?id=OIP.4z7Isiu6JCeAZvsj15I7kQHaHa&pid=Api&P=0&w=300&h=300"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Miracle Shampoo",
+            "description": "Moo Miracle Shampoo is cleansing, gentle and nourishing for all hair types. It leaves your hair feeling clean, shiny, soft and full of body.Kind to the scalp, it nourishes with every wash and is suitable for natural and colour treated hair.",
+            "price": 16.50,
+            "rating": "4.7",
+            "image_url":"https://tse4.mm.bing.net/th?id=OIP.aoeF6EjjtHKyznTioNrEWQHaFK&pid=Api&P=0&w=231&h=162"
+        }
+    },
+    {
+        "pk": 30,
+       "model": "eko_shoop",
+        "fields": {
+            "category": 1,
+            "name": "Facial Cocoa Butter",
+            "description": "This Cocoa Butter Facial Cleansing Bar is packed full of naturally-occurring Vitamin A and made to a rule of thirds – using one third cocoa butter, one third coconut oil, one third olive oil.",
+            "price": 10.99,
+            "rating": "4.7",
+            "image_url":"https://tse2.mm.bing.net/th?id=OIP.dAz_mqEIgChe5s6GuY5JmAHaE8&pid=Api&P=0&w=246&h=165"
+        }
+    }
+   
+]
