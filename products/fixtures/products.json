@@ -4,10 +4,10 @@
         "fields": {
             "category": 1,
             "name": "Dead-Sea-Salt",
-            "description": "The Dead Sea is the most saline body of water in the world with far greater concentrations of minerals than any ocean a concentration of 32% minerals compared to other seas, holding approximately 3%. Bromides and Iodine are known to be present in Dead Sea Salt, along with other minerals in a dried form, such as Magnesium, Sodium, Calcium and Potassium. All these minerals are believed to work together to assist in relaxing the body and soothes to provide a sense of well being.",
+            "description": "The Dead Sea is one of the earth’s saltiest bodies of water, and throughout history, it has been praised for its healing properties and therapeutic qualities.Since ancient times, people have used salt deposits from the Dead Sea to treat a multitude of illnesses and skin conditions naturally",
             "price": 10.99,
-            "rating": 3.9,
-            "image_url": "http://www.ideahacks.com/wp-content/uploads/2017/12/Dead-Sea-Salt.jpg"
+            "rating": "4.5",
+            "image_url": "https://tse3.mm.bing.net/th?id=OIP.4kceRNrar89cjKynbAkUdQHaE8&pid=Api&P=0&w=247&h=165"
         }
     },
     {
@@ -27,7 +27,7 @@
         "model": "eko_shoop",
         "fields": {
             "category": 1,
-            "name": "Fork-Bambu",
+            "name": "Fork-Bamboo",
             "description": "Bamboo Forks perfect for school lunches and on the go eating.",
             "price": 5.99,
             "rating": "4.6",
@@ -51,11 +51,11 @@
         "model": "eko_shoop",
         "fields": {
             "category": 1,
-            "name": "SunRoastedTomato_Fennel",
-            "description": "Don’t have time to get away? This bright and aromatic spice rub with refreshing fennel, fragrant rosemary and savoury sun roasted tomato will whisk you and your dinner off to wine country. Try it as a dry rub for grilled pork, chicken or your favourite plant-based protein, or stir it into a vinaigrette for a refreshing twist on your go-to salad. We even love it tossed with olive oil and roasted veggies. Throw in a glass of cabernet and dinner is pretty much done. Sustainable packaging: Tubes are made from wood pulp, are BPA-free and printed with vegetable-based ink (soybeans). The bags inside the tubes are fully compostable.",
-            "price": 10 ,
-            "rating": "4.7",
-            "image_url": "https://cdn.shopify.com/s/files/1/0256/3152/2878/products/SunRoastedTomato_Fennel_720x.jpg?v=1606800261"
+            "name": "Biodegradable Bin Bags",
+            "description": "These bags comes in 4 different sizes so you should be able to find one fitting your bin, so no excuse for not using something that are better for our environment in your bin.",
+            "price": 2.50 ,
+            "rating": "4.8",
+            "image_url": "https://tse2.mm.bing.net/th?id=OIP.1h09jse1mRsuCIJnUMTUOwHaHa&pid=Api&P=0&w=300&h=300"
         }
     },
     {
@@ -74,12 +74,13 @@
         "pk": 7,
         "model": "eko_shoop",
         "fields": {
-            "category": 1,
-            "name": "Coffee Scrub Soap",
-            "description": "An exfoliating bar for face and body removing dry skin, softening and promoting healing from acne and scars. A very moisturizing and healing bar with carefully ground up coffee to stimulate blood circulation while exfoliating dry skin. Infused with rosehip, avocado, shea, coconut and grapeseed oils to add moisture and repair the skin from acne and scarring while stimulating collagen. Coconut milk and kaolin clay are additional sidekicks for a deep clean and soothing feeling.",
-            "price": 3.99,
-            "rating": "3.9",
-            "image_url": "https://img0.etsystatic.com/000/0/6855067/il_fullxfull.342736086.jpg"
+           "category": 1,
+            "name": "Coffe Soap",
+            "description": "The coffee soap was created for the kitchen, but its spicy aroma of orange and cinnamon is reminiscent of Christmas holidays.",
+            "price": 3.50,
+            "rating": "4.7",
+            "image_url": "https://tse4.mm.bing.net/th?id=OIP.K8YwxMR8W_7V6mMBCAl_JgHaHa&pid=Api&P=0&w=300&h=300"
+           
         }
     },
     {
@@ -172,10 +173,10 @@
         "fields": {
             "category": 1,
             "name": "Natural Sea Sponge",
-            "description": "Natural sponge, with cotton strap This quality natural sponge is from the Mediterranean and was harvested by hand. Rinse with clean water after each use, gently squeeze dry, and hang up to air dry. Please don’t ever wring it out. Heavily soiled natural sponges can also be washed in the machine up to a maximum of 30 degrees Celsius or disinfected with 70% medicinal alcohol (Isopropanol) – of course, natural sponges are not machine-washable in hot water.",
-            "price": 9.90,
-            "rating": "4.8",
-            "image_url":"https://www.toppersonalcareproducts.com/images/24496/Luxury-Natural-Sea-Wool-Bath-Sponge-4-4-5-in-a-Real-Hand-Made-Fishing-Net-a-Natural-Renewable-Resource-8.jpg"
+            "description": "Natural, eco friendly yellow sea sponge for bath or shower. Sustainably harvested from Florida ocean waters. Each large, luxury, spa worthy sea sponge is approximately 5-6 inches. Bathe in luxury with our Eco",
+            "price": 10.99 ,
+            "rating": "4.2",
+            "image_url":"https://tse2.mm.bing.net/th?id=OIP.i1lbzglMCUhKBOqMs1Wt1AHaHa&pid=Api&P=0&w=300&h=300"
         }
     },
     {
@@ -267,7 +268,7 @@
        "model": "eko_shop",
         "fields": {
             "category": 1,
-            "name": "ECOFFEE SOFTAIL SHORT REUSABLE INSULATED CANISTER - 500ML",
+            "name": "Eco coffe Reusable Insulated Canister - 500ML",
             "description": "This stainless steel insulated Hot/Cold reusable canister is both useful and beautiful: a design classic for our times.The Softail insulated canister from Ecoffee comes in 3 stunning colours - which one to choose! It has a wide open mouth to fit a spoon for hot/cold snacks on the go. There is also a disc of silicone on the bottom to provide a non-slip base.",
             "price": 15.99,
             "rating": "4.2",

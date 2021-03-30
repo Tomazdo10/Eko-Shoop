@@ -1,34 +1,34 @@
 [
     {
         "pk": 1,
-        "model": "eko_shoop.categories",
+        "model": "product.price",
         "fields": {
-            "name": "items",
-            "friendly_name": "All items"
+            "name": "bamboo_products",
+            "friendly_name": "Bamboo Products"
         }
     },
     {
         "pk": 2,
-        "model": "eko_shoop.categories",
+        "model": "product.price",
         "fields": {
-            "name": "price",
-            "friendly_name": "By Price"
+            "name": "kitchen_items",
+            "friendly_name": "Kitchen Items"
         }
     },
     {
         "pk": 3,
-        "model": "eko_shoop.categories",
+        "model": "product.price",
         "fields": {
-            "name": "ratings",
-            "friendly_name": "By Rating"
+            "name": "deals",
+            "friendly_name": "Deals"
         }
     },
     {
         "pk": 4,
-        "model": "eko_shoop.categories",
+        "model": "product.price",
         "fields": {
-            "name": "categories",
-            "friendly_name": "By Category"
+            "name": "clothes",
+            "friendly_name": "Clothes"
         }
     }
 ]
