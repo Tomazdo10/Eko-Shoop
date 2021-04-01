@@ -17,28 +17,16 @@
                 Random Items
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-items-link">
-                <a href="" class="dropdown-item">Bamboo Products</a>
-                 <a href="" class="dropdown-item">Kitchen Items</a>
-                  <a href="" class="dropdown-item">Deals</a>
-                   <a href="" class="dropdown-item">Clothes</a>
+                <a href="{% url 'products' %}?category=bamboo,products" class="dropdown-item">Bamboo Products</a>
+                 <a href="{% url 'products' %}?category=kitchen,items" class="dropdown-item">Kitchen Items</a>
+                  <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                   <a href="{% url 'products' %}?category=clothes" class="dropdown-item">Clothes</a>
             </div>
         </li>
 
          <li class="nav-item-dropdown">
             <a class="logo-font font-weight-bond nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clothing
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-items-link">
-                <a href="" class="dropdown-item">All Items</a>
-                 <a href="" class="dropdown-item">By Price</a>
-                  <a href="" class="dropdown-item">By Rating</a>
-                   <a href="" class="dropdown-item">By Category</a>
-            </div>
-        </li>
-
-         <li class="nav-item-dropdown">
-            <a class="logo-font font-weight-bond nav-link text-black mr-5" href="#" id="offers-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-items-link">
                 <a href="" class="dropdown-item">All Items</a>
