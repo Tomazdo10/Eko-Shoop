@@ -1,13 +1,13 @@
-.html {
+html {
     height: 100%;
 }
 
-.body {
+body {
     background: url('/media/imgh1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: Lato;
+    font-family: cursive;
   
 }
 
@@ -70,6 +70,11 @@
     z-index: -1;
 }
 
+h1 {
+    padding:20px;
+    position:fixed;
+    margin:170px;
+}
 /*------------------------ Media Queries */
 
 @media (min-width: 1200px) {
