@@ -43,7 +43,14 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'bag',
+    'checkout',
+    'profiles',
 ]
+
+# Other
+'crispy_forms',
+'storages',
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
