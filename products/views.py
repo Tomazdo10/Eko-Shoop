@@ -3,8 +3,6 @@ from django.contrib import messages
 from django.db.models import Q
 from .models import Product, Category
 
-# Create your views here.
-
 
 def all_products(request):
     """ A view to return index page """
@@ -12,6 +10,22 @@ def all_products(request):
     products = Product.object.all()
     query = None
     categories = None
+    sort = None
+    directions = None
+
+    if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            if sortkey == 'name':
+                sortkey = 'lower_name'
+                products = products.annotate(lower_name=Lower('name'))
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = 'f-{sortkey}'
+            products = products.order_by(sortkey)
 
     if request.GET:
         if 'category' in request.GET:
@@ -33,6 +47,7 @@ def all_products(request):
         'products': products,
         'searc_term': query,
         'current_categories': categories,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'products/products.html', context)
