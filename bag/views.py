@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 
 def view_bag(request):
-    """ A view to return index page """
+    """ A view to return to bag page """
 
-    return render(request, 'bag/bag.html')
+    return render(request, 'bag.html')

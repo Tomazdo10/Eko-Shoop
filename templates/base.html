@@ -35,6 +35,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
     {% block extra_js %}
@@ -81,7 +82,7 @@
                             {% if request.user.is_superuser %}
                             <a href="" class="dropdown-item">Product Management</a>
                             {% endif %}
-                            <a href="" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
                             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -118,23 +119,36 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over £{{ free_shipping_threshold }}!</h4>                
+                <h4 class="logo-font my-1">Free delivery on orders over £60{{ free_delivery_threshold }}!</h4>                
             </div>            
         </div>
     </header>
 
     {% if messages %}
-    <div class="message-container"></div>
+    <div class="message-container">
+    {% for message in messages %}
+       {% with message.level as level %}
+    {% if level == 40 %}
+       {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+       {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+       {% include 'includes/toasts/toast_succsess.html' %}
+    {% else %}
+       {% include 'includes/toasts/toast_info.html' %}
     {% endif %}
+  {% endwith %}
+{% endfor %}
+</div>
+{% endif %}
 
-    {% block page_header %}
-    {% endblock %}
+{% block page_header %}
+{% endblock %}
 
-    {% block content %}
-    {% endblock %}
-
-    {% block postloadjs %}
-    {% endblock %}
-
+{% block postloadjs %}
+<script type="text/javascript">
+    $('.toast').toast('show');
+</script>
+{% endblock %}
 </body>
 </html>
