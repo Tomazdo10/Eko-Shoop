@@ -1,6 +1,6 @@
 [{
         "pk": 1,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Dead-Sea-Salt",
@@ -14,7 +14,7 @@
     },
     {
         "pk": 2,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Silicone Baking Mat",
@@ -27,7 +27,7 @@
     },
     {
         "pk": 3,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Fork-Bamboo",
@@ -40,7 +40,7 @@
     },
     {
         "pk": 4,
-         "model": "products_product",
+         "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Bamboo-Travel-Utensil-Set",
@@ -53,7 +53,7 @@
     },
     {
         "pk": 5,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Biodegradable Bin Bags",
@@ -66,7 +66,7 @@
     },
     {
         "pk": 6,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "ChaTea_Infuser",
@@ -79,7 +79,7 @@
     },
     {
         "pk": 7,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
            "category": 3,
             "name": "Coffe Soap",
@@ -93,7 +93,7 @@
     },
     {
         "pk": 8,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Hempnestingbasket",
@@ -106,7 +106,7 @@
     },
     {
         "pk": 9,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Lint Brush",
@@ -119,7 +119,7 @@
     },
     {
         "pk": 10,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Glass Bottles",
@@ -132,7 +132,7 @@
     },
     {
         "pk": 11,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 4,
             "name": "Levanta Cola, Push-Up Jeans",
@@ -145,7 +145,7 @@
     },
     {
         "pk": 12,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Eko Dishwasher Tablets",
@@ -158,7 +158,7 @@
     },
     {
         "pk": 13,
-         "model": "products_product",
+         "model": "products.product",
         "fields": {
             "category": 4,
             "name": "T-shirt",
@@ -171,7 +171,7 @@
     },
     {
         "pk": 14,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Lunch Bag",
@@ -184,7 +184,7 @@
     },
     {
         "pk": 15,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Natural Sea Sponge",
@@ -197,7 +197,7 @@
     },
     {
         "pk": 16,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Levander body soap",
@@ -210,7 +210,7 @@
     },
     {
         "pk": 17,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Hemp Tea Towels",
@@ -223,7 +223,7 @@
     },
     {
         "pk": 18,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Beeswax Wraps",
@@ -236,7 +236,7 @@
     },
     {
         "pk": 19,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Bamboo Toothbrush",
@@ -249,7 +249,7 @@
     },
     {
         "pk":20,
-      "model": "products_product",
+      "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Reusable Stainless Steel Straws",
@@ -262,7 +262,7 @@
     },
     {
         "pk": 21,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Bamboo Men's Shaving Set",
@@ -275,7 +275,7 @@
     },
     {
         "pk": 22,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 2,
             "name": "organic-cotton-mesh-produce-bag",
@@ -288,7 +288,7 @@
     },
     {
         "pk": 23,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Eco coffe Reusable Insulated Canister - 500ML",
@@ -301,7 +301,7 @@
     },
     {
         "pk": 24,
-         "model": "products_product",
+         "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Large Washing Up Soap Bar",
@@ -314,7 +314,7 @@
     },
     {
         "pk": 25,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Palm Tree Coconut Bowl",
@@ -327,7 +327,7 @@
     },
     {
         "pk": 26,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 1,
             "name": "Bamboo Cotton Buds",
@@ -340,7 +340,7 @@
     },
     {
         "pk": 27,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Biodegradable Tape",
@@ -353,7 +353,7 @@
     },
     {
         "pk": 28,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 2,
             "name": "Recycling Wrraping Papper",
@@ -366,7 +366,7 @@
     },
     {
         "pk": 29,
-        "model": "products_product",
+        "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Miracle Shampoo",
@@ -379,7 +379,7 @@
     },
     {
         "pk": 30,
-       "model": "products_product",
+       "model": "products.product",
         "fields": {
             "category": 3,
             "name": "Facial Cocoa Butter",

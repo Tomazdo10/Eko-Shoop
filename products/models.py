@@ -4,7 +4,7 @@ from django.db import models
 class Category(models.Model):
 
     class Meta:
-        verbose_name_plural = 'Categories'
+        verbose_name_plural = 'categories'
 
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(
@@ -22,6 +22,7 @@ class Product(models.Model):
         'category', null=True, blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     description = models.TextField(max_length=500)
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(
         max_digits=6, decimal_places=2)
     rating = models.DecimalField(
