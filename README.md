@@ -131,5 +131,10 @@ products they are looking for or mainly to explore.
 * A page that gives a user the ability to reviw and purchase all the items he put in the bag.
 -------------------------------------------------------------------------------------
 
+## Theme & Colors
 
+* Colors are design to be soft and light grey, white and green image for background
+  give the website emphasis, the below colour palette was generated using [coolors](https://coolors.co/555555-ffffff-000000-222222-627262).
+
+![project 4](https://user-images.githubusercontent.com/66019489/116603139-7f9f5f80-a924-11eb-8725-e8c010d4529f.png)
 
