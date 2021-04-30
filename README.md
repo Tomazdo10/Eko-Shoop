@@ -1,4 +1,7 @@
-# EKO SHOOP
+#                                                   EKO SHOOP
+
+![Screenshot (378)](https://user-images.githubusercontent.com/66019489/116666533-f410e780-a992-11eb-8584-168b24395d4d.png)
+
 
 ## LINKS :
 -------------------------------------------------------------------------------------------------------
@@ -171,6 +174,7 @@ products they are looking for or mainly to explore.
 * [Wirefames](https://balsamiq.com)used to design wireframes.
 * [Django](https://www.djangoproject.com/)used as the framework to create the app and the template language.
 * [Coloors](https://coolors.co/)used for colour palette.
+<<<<<<< HEAD
 * [Bootstrap](https://getbootstrap.com/)front-end framework used.
 * [Stripe](https://stripe.com)used to process credit card transactions.
 * [AWS](https://aws.amazon.com/)used to store static and media files.
@@ -190,12 +194,12 @@ products they are looking for or mainly to explore.
 
 ### Code Testing 
 
-[https://validator.w3.org/nu/#textarea](W3C HTML Validation Service) HTML: tested by right clicking and then using View page source to see rendered page code.
+[W3C HTML Validator](https://validator.w3.org/nu/#textarea) HTML: tested by right clicking and then using View page source to see rendered page code.
  I am aware that there are outstanding issues with the HTML code validation but sue to time constraints I was unable to resolve all issues.
 
 [The W3C CSS Validation](https://jigsaw.w3.org/css-validator/) CSS: style.css tested with  W3C CSS Validation no errors remain.
 
-Javascript: was tested with [JSHint](https://jshint.com/) no errors remain.
+[JSHint](https://jshint.com) Javascript: was tested with no errors remain.
 
 Python Code tested by typing python3 -m flake8 to test all .py files.
 
@@ -337,4 +341,9 @@ As always, the advice and support from tutors and slack comunity.
 The Code Institute Boutique Ado project walk-through was vital in assisting me in this process.
 
 As always, so much research and troubleshooting was gained by extensive use of [StackOverflow](https://stackoverflow.com/).
+=======
+
+## Languages Used 
+![Screenshot (376)](https://user-images.githubusercontent.com/66019489/116663782-7ac3c580-a98f-11eb-8118-6687673b2c81.png)
+>>>>>>> ad3e28bd4377f962160239c1e2e2884ad2050d27
 
