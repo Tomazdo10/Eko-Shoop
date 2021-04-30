@@ -2,6 +2,7 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
+            "sku": "0001",
             "category": 1,
             "name": "Dead-Sea-Salt",
             "description": "The Dead Sea is one of the earth’s saltiest bodies of water, and throughout history, it has been praised for its healing properties and therapeutic qualities.Since ancient times, people have used salt deposits from the Dead Sea to treat a multitude of illnesses and skin conditions naturally",
@@ -16,6 +17,7 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
+            "sku": "0002",
             "category": 2,
             "name": "Silicone Baking Mat",
             "description": "Say goodbye to aluminum foil, parchment & wax paper!Super easy to clean high temperature ready silicone baking and grilling sheet.",
@@ -29,6 +31,7 @@
         "pk": 3,
         "model": "products.product",
         "fields": {
+            "sku": "0003",
             "category": 1,
             "name": "Fork-Bamboo",
             "description": "Bamboo Forks perfect for school lunches and on the go eating.",
@@ -42,6 +45,7 @@
         "pk": 4,
          "model": "products.product",
         "fields": {
+            "sku": "0004",
             "category": 1,
             "name": "Bamboo-Travel-Utensil-Set",
             "description": "This beautifully finished cutlery set is perfect for taking on picnics, eating in the garden or simply taking lunch to work. Each utensil is made from a single piece of bamboo, then hand shaped and finished. Bamboo is more durable than wood and is heat & stain resistant.",
@@ -55,6 +59,7 @@
         "pk": 5,
         "model": "products.product",
         "fields": {
+            "sku": "0005",
             "category": 2,
             "name": "Biodegradable Bin Bags",
             "description": "These bags comes in 4 different sizes so you should be able to find one fitting your bin, so no excuse for not using something that are better for our environment in your bin.",
@@ -68,6 +73,7 @@
         "pk": 6,
         "model": "products.product",
         "fields": {
+            "sku": "0006",
             "category": 2,
             "name": "ChaTea_Infuser",
             "description": "Tea Infuser, laser cut stainless steel. Ideal for single cups and teapots. Holds up to 5 tbsp / 75g of loose tea. Dishwasher safe",
@@ -81,6 +87,7 @@
         "pk": 7,
         "model": "products.product",
         "fields": {
+            "sku": "0007",
            "category": 3,
             "name": "Coffe Soap",
             "description": "The coffee soap was created for the kitchen, but its spicy aroma of orange and cinnamon is reminiscent of Christmas holidays.",
@@ -95,6 +102,7 @@
         "pk": 8,
         "model": "products.product",
         "fields": {
+            "sku": "0008",
             "category": 3,
             "name": "Hempnestingbasket",
             "description": "Reduce your use of plastic. Organize your counters with these stylish hemp baskets.Great for makeup, cloth makeup removers, pill bottles etc. ",
@@ -108,6 +116,7 @@
         "pk": 9,
         "model": "products.product",
         "fields": {
+            "sku": "0009",
             "category": 1,
             "name": "Lint Brush",
             "description": "Redecker's lint brush removes lint, dandruff, dust, and animal hair from clothing, furniture, or upholstery. The all-natural rubber brush is charged by friction and attracts hair, lint and dust like a magnet. Clean simply by hand, or rinse in water.Made with oiled beechwood and natural rubber.",
@@ -121,6 +130,7 @@
         "pk": 10,
         "model": "products.product",
         "fields": {
+            "sku": "00010",
             "category": 2,
             "name": "Glass Bottles",
             "description": "Eco-friendly alternative to imported premium bottled water. Similar taste profile and mouthfeel",
@@ -134,6 +144,7 @@
         "pk": 11,
         "model": "products.product",
         "fields": {
+            "sku": "00011",
             "category": 4,
             "name": "Levanta Cola, Push-Up Jeans",
             "description": "Feel yourself super Sexy and Glamorous. M.Michel jeans seductively hug a woman’s feminine silhouette. The Jean is the perfect transition piece to wear from casual to party! M.Michel are the number one push-up jeans in the market with the wonder push-up effect, combined with a wide variety of washes and fit type",
@@ -147,6 +158,7 @@
         "pk": 12,
         "model": "products.product",
         "fields": {
+            "sku": "00012",
             "category": 2,
             "name": "Eko Dishwasher Tablets",
             "description": "Love produces all natural, waste free cleaning products.  Their formulations have been researched endlessly to provide customers with a product that not only works, but gives them the ability to keep their house clean in a waste free way.  All of Earth Love’s products are in tablet form and are packaged in compostable materials. ",
@@ -160,6 +172,7 @@
         "pk": 13,
          "model": "products.product",
         "fields": {
+            "sku": "00013",
             "category": 4,
             "name": "T-shirt",
             "description": "This short-sleeve heavyweight T-shirt is comfortable, economical and made to last. Designed with a traditional fit that runs true to size, he’ll show off his personality",
@@ -173,6 +186,7 @@
         "pk": 14,
         "model": "products.product",
         "fields": {
+            "sku": "00014",
             "category": 3,
             "name": "Lunch Bag",
             "description": "The soft shell lunch bag that fits easily into your purse/backpack/tote that keeps in spills and washes easily",
@@ -186,6 +200,7 @@
         "pk": 15,
         "model": "products.product",
         "fields": {
+            "sku": "00015",
             "category": 1,
             "name": "Natural Sea Sponge",
             "description": "Natural, eco friendly yellow sea sponge for bath or shower. Sustainably harvested from Florida ocean waters. Each large, luxury, spa worthy sea sponge is approximately 5-6 inches. Bathe in luxury with our Eco",
@@ -199,6 +214,7 @@
         "pk": 16,
         "model": "products.product",
         "fields": {
+            "sku": "00016",
             "category": 1,
             "name": "Levander body soap",
             "description": "Ingredients: coconut oil, canola oil, avocado oil, olive oil, shea butter, pink kaolin clay, madder root powder, essential oil blend All items are small batch hand-made",
@@ -212,6 +228,7 @@
         "pk": 17,
         "model": "products.product",
         "fields": {
+            "sku": "00017",
             "category": 2,
             "name": "Hemp Tea Towels",
             "description": "Tea towel made with a beautiful 100% hemp woven (jacquard) fabric with natural colour and a beautiful texture. Hemp is more absorbent than cotton, dries quickly, and is a very sustainable material.",
@@ -225,6 +242,7 @@
         "pk": 18,
        "model": "products.product",
         "fields": {
+            "sku": "00018",
             "category": 2,
             "name": "Beeswax Wraps",
             "description": "Handmade beeswax food wraps are a sustainable alternative to single-use plastic. Use it to cover your leftovers in the fridge, half a lemon, your avocado, cucumbers, your bread and more. Fold the medium size sheet into a pocket to carry your dry snacks around.",
@@ -238,6 +256,7 @@
         "pk": 19,
         "model": "products.product",
         "fields": {
+            "sku": "00019",
             "category": 1,
             "name": "Bamboo Toothbrush",
             "description": "Made from organically grown bamboo, this is an eco-friendly toothbrush with 100% biodegradable handle ",
@@ -251,6 +270,7 @@
         "pk":20,
       "model": "products.product",
         "fields": {
+            "sku": "00020",
             "category": 3,
             "name": "Reusable Stainless Steel Straws",
             "description": "This reusable straw pack contains 4 bent rainbow coloured straws, 4 straight rainbow coloured straws, a straw cleaning brush and are packaged inside a natural hessian bag for your convenience.Did you know that five billion disposable plastic straws are used and discarded every year?",
@@ -264,6 +284,7 @@
         "pk": 21,
        "model": "products.product",
         "fields": {
+            "sku": "00021",
             "category": 1,
             "name": "Bamboo Men's Shaving Set",
             "description": "For anyone looking to get started with waste-free natural shaving this is for you!",
@@ -277,6 +298,7 @@
         "pk": 22,
        "model": "products.product",
         "fields": {
+            "sku": "00022",  
             "category": 2,
             "name": "organic-cotton-mesh-produce-bag",
             "description": "This pack of 3 great value organic cotton produce bags are designed for carrying fresh fruit or vegetables from the supermarket, market or farm shop and storing them at home. They also make an excellent plastic-free gift (if you can bear to part with them!).",
@@ -290,6 +312,7 @@
         "pk": 23,
        "model": "products.product",
         "fields": {
+            "sku": "00023",
             "category": 3,
             "name": "Eco coffe Reusable Insulated Canister - 500ML",
             "description": "This stainless steel insulated Hot/Cold reusable canister is both useful and beautiful: a design classic for our times.The Softail insulated canister from Ecoffee comes in 3 stunning colours - which one to choose! It has a wide open mouth to fit a spoon for hot/cold snacks on the go. There is also a disc of silicone on the bottom to provide a non-slip base.",
@@ -303,6 +326,7 @@
         "pk": 24,
          "model": "products.product",
         "fields": {
+            "sku": "00024",
             "category": 3,
             "name": "Large Washing Up Soap Bar",
             "description": "Say goodbye to those plastic washing-up liquid bottles, forever! Clean your dishes, pots and pans the eco-friendly way without harming the environment. Powered by organic plant-based ingredients that are tough on grease yet gentle to your hands. So mild the rinse water can be used on your plants! ",
@@ -316,6 +340,7 @@
         "pk": 25,
        "model": "products.product",
         "fields": {
+            "sku": "00025",
             "category": 1,
             "name": "Palm Tree Coconut Bowl",
             "description": "These stylish coconut shell bowls are not only stunning to look at and great to eat from but you will know you've helped the environment in a multitude of ways.",
@@ -329,6 +354,7 @@
         "pk": 26,
        "model": "products.product",
         "fields": {
+            "sku": "00026",
             "category": 1,
             "name": "Bamboo Cotton Buds",
             "description": "These natural bamboo cotton buds are 100% biodegradable. No more plastic sticks floating in the seas or washed up on the beaches.",
@@ -342,6 +368,7 @@
         "pk": 27,
         "model": "products.product",
         "fields": {
+            "sku": "00027",
             "category": 3,
             "name": "Biodegradable Tape",
             "description": "This paper tape is the perfect alternative to plastic sticky tape. You can use it for wrapping presents, sealing boxes, sticking things to walls, and everything else you would normally use plastic tape for!",
@@ -355,6 +382,7 @@
         "pk": 28,
         "model": "products.product",
         "fields": {
+            "sku": "00028",
             "category": 2,
             "name": "Recycling Wrraping Papper",
             "description": "This beautiful wrapping paper has been made in the UK entirely from post consumer waste with pulp that has not been bleached. The 100gsm recycled paper is also uncoated and the stunning design is printed in the UK using eco-friendly vegetable inks. It is fully recyclable.",
@@ -368,6 +396,7 @@
         "pk": 29,
         "model": "products.product",
         "fields": {
+            "sku": "00029",
             "category": 3,
             "name": "Miracle Shampoo",
             "description": "Moo Miracle Shampoo is cleansing, gentle and nourishing for all hair types. It leaves your hair feeling clean, shiny, soft and full of body.Kind to the scalp, it nourishes with every wash and is suitable for natural and colour treated hair.",
@@ -381,6 +410,7 @@
         "pk": 30,
        "model": "products.product",
         "fields": {
+            "sku": "00030",
             "category": 3,
             "name": "Facial Cocoa Butter",
             "description": "This Cocoa Butter Facial Cleansing Bar is packed full of naturally-occurring Vitamin A and made to a rule of thirds – using one third cocoa butter, one third coconut oil, one third olive oil.",
