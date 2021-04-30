@@ -171,4 +171,7 @@ products they are looking for or mainly to explore.
 * [Wirefames](https://balsamiq.com)used to design wireframes.
 * [Django](https://www.djangoproject.com/)used as the framework to create the app and the template language.
 * [Coloors](https://coolors.co/)used for colour palette.
-*
+
+## Languages Used 
+![Screenshot (376)](https://user-images.githubusercontent.com/66019489/116663782-7ac3c580-a98f-11eb-8118-6687673b2c81.png)
+
