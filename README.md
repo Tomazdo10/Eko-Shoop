@@ -132,9 +132,43 @@ products they are looking for or mainly to explore.
 -------------------------------------------------------------------------------------
 
 ## Theme & Colors
-
+----------------------------------------------------------------------------------------
 * Colors are design to be soft and light grey, white and green image for background
   give the website emphasis, the below colour palette was generated using [coolors](https://coolors.co/555555-ffffff-000000-222222-627262).
 
 ![project 4](https://user-images.githubusercontent.com/66019489/116603139-7f9f5f80-a924-11eb-8725-e8c010d4529f.png)
 
+## Database and Feauture Design
+
+ ### Products: 
+-------------------------------------------------------------------------------------------------
+ * The user data information is stored in models:
+
+   * consisting of 6 subsets
+
+     * SKU-Numerical identifier
+     * Name of the product
+     * Description of the product
+     * Price of the product 
+     * Rating 
+     * Image of the product
+
+## Features left to implement
+
+ * In the future if this would rael bussines i would add more products to website more
+   options to chose from, i would also add the email option to login and login true 
+   social media account.
+---------------------------------------------------------------------------------------
+## Technologies Used:
+
+* HTML, CSS, Javascript & Python languages
+* [Google Fonts](https://fonts.google.com/)Family=Lato font used through all pages.
+* [EcoShoop](https://theecoshopuk.com/),[andKeep](https://andkeep.com),[Google](https://www.google.com/)I found images and products on
+  different pages as presented to get some more specific idea for the products and my Eko Shoop project.
+* [Gitpod](https://www.gitpod.io/) IDE used to code.
+* [Github](https://github.com/)to host the repositories for this project.
+* [Git](https://git-scm.com/)for version control.
+* [Wirefames](https://balsamiq.com)used to design wireframes.
+* [Django](https://www.djangoproject.com/)used as the framework to create the app and the template language.
+* [Coloors](https://coolors.co/)used for colour palette.
+*
