@@ -1,6 +1,6 @@
 #                                                   EKO SHOOP
 
-![Screenshot (377)](https://user-images.githubusercontent.com/66019489/116666293-b01de280-a992-11eb-8bdc-ac8d17541a23.png)
+![Screenshot (378)](https://user-images.githubusercontent.com/66019489/116666533-f410e780-a992-11eb-8584-168b24395d4d.png)
 
 
 ## LINKS :
