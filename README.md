@@ -165,20 +165,20 @@ products they are looking for or mainly to explore.
 ## Technologies Used:
 
 * HTML, CSS, Javascript & Python languages
-* [Google Fonts](https://fonts.google.com/)Family=Lato font used through all pages.
-* [EcoShoop](https://theecoshopuk.com/),[andKeep](https://andkeep.com),[Google](https://www.google.com/)I found images and products on
+* [Google Fonts](https://fonts.google.com/)-Family=Lato font used through all pages.
+* [EcoShoop](https://theecoshopuk.com/),[andKeep](https://andkeep.com),[Google](https://www.google.com/)-I found images and products on
   different pages as presented to get some more specific idea for the products and my Eko Shoop project.
 * [Gitpod](https://www.gitpod.io/) IDE used to code.
-* [Github](https://github.com/)to host the repositories for this project.
-* [Git](https://git-scm.com/)for version control.
-* [Wirefames](https://balsamiq.com)used to design wireframes.
-* [Django](https://www.djangoproject.com/)used as the framework to create the app and the template language.
-* [Coloors](https://coolors.co/)used for colour palette.
+* [Github](https://github.com/)-to host the repositories for this project.
+* [Git](https://git-scm.com/)-for version control.
+* [Wirefames](https://balsamiq.com)-used to design wireframes.
+* [Django](https://www.djangoproject.com/)-used as the framework to create the app and the template language.
+* [Coloors](https://coolors.co/)-used for colour palette.
 <<<<<<< HEAD
-* [Bootstrap](https://getbootstrap.com/)front-end framework used.
-* [Stripe](https://stripe.com)used to process credit card transactions.
-* [AWS](https://aws.amazon.com/)used to store static and media files.
-* [Fontawesome](https://fontawesome.com/)used for various icons across the site.
+* [Bootstrap](https://getbootstrap.com/)-front-end framework used.
+* [Stripe](https://stripe.com)-used to process credit card transactions.
+* [AWS](https://aws.amazon.com/)-used to store static and media files.
+* [Fontawesome](https://fontawesome.com/)-used for various icons across the site.
 
 #### Languages Used 
 
@@ -220,8 +220,8 @@ Python Code tested by typing python3 -m flake8 to test all .py files.
     dependent on whether the user is logged in or not
   * Tested the shopping basket icon to check that the /bag page is rendered
 ----------------------------------------------------------------------------------------------------------
- I could,t finifsh with the proper testing
- Due too run out of time i couldn't test the shopping bag properly or the products itself because i ran into 
+ I could not finish with the proper testing
+ Due too run out of time i couldn not test the shopping bag properly or the products itself because i ran into 
  an issue which didn't load me the products to my website, and because i run out of time to finish the project
  properly i had to levae it as it is. Hopefully i will be able to fixed it and deploy it again with all the sites.
  Properly functional.
@@ -319,7 +319,7 @@ else:
   * Add the below if statement to settings.py to check that USE_AWS is set to true
 
 if 'USE_AWS' in os.environ:
-    AWS_STORAGE_BUCKET_NAME = 'street-art-at-home'
+    AWS_STORAGE_BUCKET_NAME = 'eko-shoop'
     AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
