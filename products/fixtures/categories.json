@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "product.category",
+        "model": "product.categories",
         "fields": {
             "name": "bamboo_products",
             "friendly_name": "Bamboo Products"
@@ -9,7 +9,7 @@
     },
     {
         "pk": 2,
-        "model": "product.category",
+        "model": "product.categories",
         "fields": {
             "name": "kitchen_items",
             "friendly_name": "Kitchen Items"
@@ -17,7 +17,7 @@
     },
     {
         "pk": 3,
-        "model": "product.category",
+        "model": "product.categories",
         "fields": {
             "name": "deals",
             "friendly_name": "Deals"
@@ -25,7 +25,7 @@
     },
     {
         "pk": 4,
-        "model": "product.category",
+        "model": "product.categories",
         "fields": {
             "name": "clothes",
             "friendly_name": "Clothes"
