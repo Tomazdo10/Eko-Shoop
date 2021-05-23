@@ -23,7 +23,7 @@ SECRET_KEY = '&^%jstfaln8h#$dgridg1xfrlx!56+oe6d7+k$1nz@ygbf@-fp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['f8c4ff5-eko-shoop.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['eko-shoop.herokuapp.com', 'localhost']
 
 
 # Application definition
