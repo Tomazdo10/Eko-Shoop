@@ -4,6 +4,13 @@ from products.models import Product
 
 def bag_contents(request):
 
+    """Handler showing bag contents
+    Args:
+        request: HTTP request object
+    Returns:
+        Items in shopping cart and pricing
+    """
+
     bag_items = []
     total = 0
     product_count = 0
