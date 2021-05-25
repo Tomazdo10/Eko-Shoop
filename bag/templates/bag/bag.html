@@ -28,7 +28,7 @@
             {% else %}
                 <h2 class="logo-font mb-4">Shopping Bag</h2>
                 <h2 class="logo-fontsml mb-4">You are shopping as a guest, why not <span id="create"><label class="form-check-label" for="id-save-info">
-                    <a class="text-info small" href="{% url 'account.signup' %}">create an account</a></label></span></h2>
+                    <a class="text-info small" href="">create an account</a></label></span></h2>
             {% endif %}
             <hr></div>
         </div>
@@ -40,30 +40,30 @@
                 <div class="d-block d-md-none">
                     <div class="row">
                         <div class="col">
-                            {% include "bag/bag-total.html" %}
+
                         </div>
                     </div>
                 </div>
                     <div class="row">
                         <div class="col">
-                            {% include "bag/checkout-buttons.html" %}
+    
                             <p class="text-muted mb-5">A summary of your bag contents is below</p>
                         </div>
                     </div>
                     {% for item in bag_items %}
                     <div class="row removedisplay">
                         <div class="col-12 col-sm-6 mb-2">
-                            {% include "bag/product-image.html" %}
+                          
                         </div>
                         <div class="col-12 col-sm-6 mb-2">
-                            {% include "bag/product-info.html" %}
+                           
                         </div>
                         <div class="col-12 col-sm-6 order-sm-last">
                             <p class="my-0">Price Each: £{{ item.product.price_l }}</p>
                             <p><strong>Subtotal: </strong>£{{ item.product.price_l | calc_subtotal:item.quantity }}</p>
                         </div>
                         <div class="col-12 col-sm-6">
-                            {% include "bag/quantity-form.html" %}
+                            
                         </div>
                     </div>
                 </div>
@@ -91,16 +91,16 @@
                         {% for item in bag_items %}
                             <tr>
                                 <td class="p-3 w-25">
-                                    {% include "bag/product-image.html" %}
+                                    
                                 </td>
                                 <td class="py-3">
-                                    {% include "bag/product-info.html" %}
+                                   
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0">£{{ item.product.price_l }}</p>
                                 </td>
                                 <td class="py-3 w-25">
-                                    {% include "bag/quantity-form.html" %}
+                                   
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0">£{{ item.product.price_l | calc_subtotal:item.quantity }}</p>
@@ -109,7 +109,7 @@
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    {% include "bag/bag-total.html" %}
+                                   
                                 </td>
                             </tr>
                             <tr>
@@ -122,7 +122,7 @@
                             <tr>
                                 <!--back to products or checkout links-->
                                 <td colspan="5" class="text-right">
-                                    {% include "bag/checkout-buttons.html" %}
+                                  
                                 </td>
                             </tr>
                     </table>
