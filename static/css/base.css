@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    background: url('/media/3girlsandmouse.jpg') no-repeat center center fixed;
+    background: url('/media/imgh1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: rgb(95, 34, 34);
     font-family: 'Poppins', san-serif;
-    background-color: #fcfaf5;    
+    background-color: lightgreen;    
 }
 
 /* from Bulma */
@@ -21,10 +21,14 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #28a745;
     color: white;
-    min-width: 260px;
+    min-width: 25px;
+    padding:2%;
+    position:absolute;
+    bottom:10px;
 }
+
 
 .btn-black {
     background: #ADB993;
@@ -76,7 +80,7 @@ body {
 }
 
 .mobilenav a:hover {
-    color: #ec71c9 !important;
+    color: #669474 !important;
 }
 
 .btt-button {
@@ -93,7 +97,7 @@ body {
 }
 
 .remove-item:hover {
-    color: #ec71c9 !important;
+    color: #49a351 !important;
 }
 
 .remove-item {
@@ -107,7 +111,7 @@ body {
 }
 
 .btt-link:hover {
-    background-color: #ec71c9;
+    background-color: #4ee27f;
 }
 
 .btt-button:hover {
@@ -125,7 +129,7 @@ body {
 }
 
 .showitems:hover {
-    color: #ec71c9;
+    color: #070406;
 }
 
 input[name='q']::placeholder {
@@ -133,7 +137,7 @@ input[name='q']::placeholder {
 }
 
 .idbasket a:hover {
-    color: #ec71c9 !important;
+    color: #000000 !important;
 }
 
 .dropdown-menu.border-0 a:active {
@@ -156,7 +160,7 @@ input[name='q']::placeholder {
 }
 
 a.update-link.text-info:hover {
-    color: #ec71c9 !important;
+    color: #0e070c !important;
     text-decoration: underline;
 }
 
@@ -217,15 +221,15 @@ a#allauthlink:hover {
 /* convenience classes - colors copied from Bootstrap */
 
 .arrow-success {
-    border-bottom-color: #ADB993 !important;
+    border-bottom-color: darkgrey !important;
 }
 
 .arrow-danger {
-    border-bottom-color: #dc3545 !important;
+    border-bottom-color: darkgray !important;
 }
 
 .arrow-warning {
-    border-bottom-color: #ec71c9 !important;
+    border-bottom-color: darkgrey !important;
 }
 
 .arrow-info {
@@ -276,7 +280,7 @@ a#allauthlink:hover {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #ec71c9;
+    background-color: #020101;
 }
 
 .allauth-form-inner-content a {
@@ -412,8 +416,8 @@ button.primaryAction:focus {
 }
 
 .footer-title:hover {
-    color: #ec71c9;
-    border-bottom: 1px solid #ec71c9;
+    color: #000000;
+    border-bottom: 1px solid #5c8374;
 }
 
 .footer-social-links li{
@@ -441,5 +445,5 @@ button.primaryAction:focus {
   background:#555555;
 }
 .footer-social-links a:hover {
-	background: #ec71c9;
+	background: greenyellow;
 }

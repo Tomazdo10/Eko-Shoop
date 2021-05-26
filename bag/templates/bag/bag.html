@@ -91,19 +91,19 @@
                         {% for item in bag_items %}
                             <tr>
                                 <td class="p-3 w-25">
-                                    
-                                </td>
-                                <td class="py-3">
                                    
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0">£{{ item.product.price_l }}</p>
+                               
+                                </td>
+                                <td class="py-3">
+                                  
                                 </td>
                                 <td class="py-3 w-25">
                                    
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0">£{{ item.product.price_l | calc_subtotal:item.quantity }}</p>
+                                    
                                 </td>
                             </tr>
                             {% endfor %}
@@ -122,7 +122,7 @@
                             <tr>
                                 <!--back to products or checkout links-->
                                 <td colspan="5" class="text-right">
-                                  
+                                    <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                                 </td>
                             </tr>
                     </table>
@@ -144,7 +144,7 @@
 
 {% block postloadjs %}
 {{ block.super }}
-{% include 'products/includes/quantity_input_script.html' %}
+
 
 <script type="text/javascript">
     // update quantity on click
