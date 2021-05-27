@@ -5,10 +5,10 @@ html {
 body {
     background: url('/media/imgh1.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: 100vh;
     color: rgb(95, 34, 34);
     font-family: 'Poppins', san-serif;
-    background-color: lightgreen;    
+    background-color: #000;    
 }
 
 /* from Bulma */
