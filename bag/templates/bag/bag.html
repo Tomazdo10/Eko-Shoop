@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     {% for item in bag_items %}
-                    <div class="row removedisplay">
+                    <div class="row remove-display">
                         <div class="col-12 col-sm-6 mb-2">
                           
                         </div>
@@ -91,16 +91,18 @@
                         {% for item in bag_items %}
                             <tr>
                                 <td class="p-3 w-25">
-                                   
+                                   <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                                 </td>
                                 <td class="py-3">
-                               
+                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                        <p class="my-0"><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
+                                        <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                 </td>
                                 <td class="py-3">
-                                  
+                                      <p class="my-0">${{ item.product.price }}</p>
                                 </td>
                                 <td class="py-3 w-25">
-                                   
+                                    <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}"></form>
                                 </td>
                                 <td class="py-3">
                                     
