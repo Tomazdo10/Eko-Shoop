@@ -1,1 +1,1 @@
-web: gunicorn eko-shoop.wsgi:application
+web: gunicorn eko_shop.wsgi:application
