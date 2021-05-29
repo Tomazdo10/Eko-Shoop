@@ -168,6 +168,11 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECTS_PARAMETERS = {
+        'expires' 'Fri, 31 Dec 2100 21:00:00 GMT'
+        'CacheControl': 'max-age=94608000'
+    }
     # Bucket config
     AWS_STORAGE_BUCKET_NAME = 'Eko-Shoop'
     AWS_REGION_NAME = 'us-east-1'
