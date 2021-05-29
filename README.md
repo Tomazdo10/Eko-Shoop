@@ -330,9 +330,10 @@ if 'USE_AWS' in os.environ:
 ### Open Issues
 
 I had an issue uploding the categories and database to my website, I was guided by tutor
-but we couldn't successfuly manage to do it, so ran out of time and i couldn't finish my 
-last project successfuly. I will continue after the recived results to make it 
-work properly, and deploy it again.
+but we  successfuly manage to do it. At the deployment to heroku the build log was succsessfuly
+build everything was showing fine but for some reason which i couldn't find what the issue was i
+had to deployed the project because i run out of time to find the issue why is not
+not working properly on heroku but on github works.
 
 ## Credits & acknowledgements
 
