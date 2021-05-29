@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '&^%jstfaln8h#$dgridg1xfrlx!56+oe6d7+k$1nz@ygbf@-fp')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['eko-shoop.herokuapp.com', 'localhost']
 
