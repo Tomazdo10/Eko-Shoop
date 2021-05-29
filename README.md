@@ -43,7 +43,7 @@ surounded by us and how badly we impact on the inviroment arround us, with pollu
 So I've decided to do something simple like an Eko-Shoop store where you can buy or find some idea or advice
 how to reduce the use of plastic arround you and make our Planet greener.
 
-(Link to live open site : Click Here)[?]
+(Link to live open site : Click Here)[https://8000-aquamarine-elk-fqic5cog.ws-eu08.gitpod.io/]
 
 -----------------------------------------------------
 ### User Story
