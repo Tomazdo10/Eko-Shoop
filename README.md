@@ -44,6 +44,7 @@ So I've decided to do something simple like an Eko-Shoop store where you can buy
 how to reduce the use of plastic arround you and make our Planet greener.
 
 (Link to live open site : Click Here)[https://8000-aquamarine-elk-fqic5cog.ws-eu08.gitpod.io/]
+(Link to herokuapp)[https://eko-shoop.herokuapp.com/]
 
 -----------------------------------------------------
 ### User Story
