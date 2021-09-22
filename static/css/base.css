@@ -3,12 +3,11 @@ html {
 }
 
 body {
-    background: url('/media/imgh1.jpg') no-repeat center center fixed;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
-    color: rgb(95, 34, 34);
-    font-family: 'Poppins', san-serif;
-    background-color: #000;    
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Lato';
 }
 
 /* from Bulma */
@@ -20,19 +19,36 @@ body {
     width: 1.5rem;
 }
 
-.shop-now-button {
-    background: #28a745;
-    color: white;
-    min-width: 25px;
-    padding:2%;
-    position:absolute;
-    bottom:10px;
+.logo-font {
+    text-transform: uppercase;
 }
 
+.main-logo-link {
+    width: fit-content;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
 
 .btn-black {
-    background: #ADB993;
-    color: #555555;
+    background: black;
+    color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 .shop-now-button:hover,
@@ -41,27 +57,20 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #15f859;
+    background: #222;
     color: white;
 }
 
 .text-black {
-    color: #ADB993 !important;
+    color: #000 !important;
 }
 
-.nav-item a:hover {
-    color: #ddcf0f93!important;
-    border-bottom: 1px solid #f1bb07;
+.border-black {
+    border: 1px solid black !important;
 }
 
-.hvrgold a {
-    font-size: 1.5em;
-    text-decoration: none;
-    border-bottom: 1px solid #adb993;
-}
-
-.searchbox {
-    padding-top: 30px;
+.bg-black {
+    background: #000 !important;
 }
 
 .overlay {
@@ -74,13 +83,9 @@ body {
 	z-index: -1;
 }
 
-.indexintro {
-    opacity: 0.7;
-    padding-top: 70px;
-}
-
-.mobilenav a:hover {
-    color: #669474 !important;
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 .btt-button {
@@ -91,91 +96,15 @@ body {
     right: 10px;
 }
 
+.btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
 }
 
-.remove-item:hover {
-    color: #49a351 !important;
-}
-
-.remove-item {
-    color: #555555;
-}
-
-.btt-link {
-    cursor: pointer;
-    background-color: #adb993;
-    color: #555555;
-}
-
-.btt-link:hover {
-    background-color: #4ee27f;
-}
-
-.btt-button:hover {
-    color: white;
-}
-
-.btn-outline-black {
-    background: white;
-    color: black !important;
-    border: 1px solid black;
-}
-
-.free-delivery {
-    color: #064400;
-}
-
-.showitems:hover {
-    color: #070406;
-}
-
 input[name='q']::placeholder {
     color: #aab7c4;
 }
-
-.idbasket a:hover {
-    color: #000000 !important;
-}
-
-.dropdown-menu.border-0 a:active {
-    background-color: #adb993;
-    color: white!important;
-}
-
-.dropdown-menu.border-0 a:focus {
-    background-color: #adb993;
-    color: white;
-}
-
-.logo-fontsml {
-    font-size: 1.2rem;
-    color: #555;
-}
-
-.text-black.nav-link.dropdown-item.active {
-   background-color: #adb993 !important;
-}
-
-a.update-link.text-info:hover {
-    color: #0e070c !important;
-    text-decoration: underline;
-}
-
-a.text-info:hover {
-    color: hsl(138, 62%, 19%) !important;
-}
-
-a#allauthlink:hover {
-    color: hsl(138, 62%, 19%);
-}
-
-#notloggedin {
-    color: hsl(138, 62%, 19%)3;
-}
-
 
 /* ------------------------------- bootstrap toasts */
 
@@ -194,17 +123,6 @@ a#allauthlink:hover {
     height: 2px;
 }
 
-.logo-font {
-    color: #adb993;
-    font-weight: bold;
-}
-
-.name {
-    position: absolute;
-    right: 10px;
-    bottom: 0px;
-}
-
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -217,34 +135,63 @@ a#allauthlink:hover {
     right: 36px;
 }
 
+/* Convenience classes - colors copied from Bootstrap */
+.arrow-primary {
+    border-bottom-color: #007bff !important;
+}
 
-/* convenience classes - colors copied from Bootstrap */
+.arrow-secondary {
+    border-bottom-color: #6c757d !important;
+}
 
 .arrow-success {
-    border-bottom-color: darkgrey !important;
+    border-bottom-color: #28a745 !important;
 }
 
 .arrow-danger {
-    border-bottom-color: darkgray !important;
+    border-bottom-color: #dc3545 !important;
 }
 
 .arrow-warning {
-    border-bottom-color: darkgrey !important;
+    border-bottom-color: #ffc107 !important;
 }
 
 .arrow-info {
     border-bottom-color: #17a2b8 !important;
 }
 
-/* Allauth formatting */
+.arrow-light {
+    border-bottom-color: #f8f9fa !important;
+}
+
+.arrow-dark {
+    border-bottom-color: #343a40 !important;
+}
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem;
+    margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
-    border-color: #adb993;
+    border-color: #000;
     border-radius: 0;
 }
 
@@ -261,16 +208,18 @@ a#allauthlink:hover {
 	/* btn */
 	display: inline-block;
     font-weight: 400;
-    color: #555555;
+    color: #fff;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #adb993;
+    background-color: #000;
+    border: 1px solid #000;
     padding: .375rem .75rem;
     font-size: 1rem;
+    line-height: 1.5;
     border-radius: 0;
 
     /* standard bootstrap btn transitions */
@@ -280,36 +229,12 @@ a#allauthlink:hover {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #020101;
+    background-color: #222;
+    border-color: #222;
 }
 
 .allauth-form-inner-content a {
 	color: #17a2b8; /* text-info */
-}
-
-.primaryAction {
-    border-style: none;
-}
-
-button.primaryAction:focus {
-    outline: none;
-}
-
-/* -------------------------------- Media Queries */
-
-/* slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-/* remove logo over image on large screens */
-@media (min-width: 992px) {
-  .mobilelogo {
-    visibility: hidden;
-    display: none;
-  }
 }
 
 /* fixed top navbar only on medium and up */
@@ -321,129 +246,19 @@ button.primaryAction:focus {
         left: 0;
         z-index: 1030;
     }
-}
 
-/* bring contact down on med & larger screens to clear navbar */
-@media (min-width: 768px) {
-    .bringcontentdown {
-        padding-top: 270px;
-    }
-    .removedisplay {
-        display: none;
+    .header-container {
+        padding-top: 164px;
     }
 }
 
-@media (max-width: 768px) {
-    .smallprofile {
-        font-size: 0.8rem;
-    }
-}
-/* bring content down on smaller screens to clear navbar */
+/* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    .bringcontentdown {
-        padding-top: 100px;
+    .header-container {
+        padding-top: 116px;
     }
-    .btn.btn-outline-black.rounded-0.text-uppercase,
-    .btn.btn-black.rounded-0.mt-0 {
-        padding: .3rem .3rem;
+
+    body {
+        height: calc(100vh - 116px);
     }
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0.btn-lg {
-        padding: .3rem .3rem;
-        font-size: .75rem;
-    }
-    .increment-qty, .decrement-qty {
-        padding: .25rem .5rem !important;
-    }
-}
-
-/* make mobile navbar links smaller for the smallest screens to prevent 2 rows */
-
-@media (max-width: 425px) {
-    .mobilenav {
-        font-size: 0.5rem;
-    }
-    .message-container {
-        display: none;
-    }
-}
-
-
-/* removes search box icon on the absolute tiniest screens */
-
-@media (max-width: 325px) {
-    #mobile-search {
-        display: none !important;
-    }
-    .ordernosml {
-        font-size: 0.7rem;
-    }
-    .order-history {
-        font-size: 0.7rem;
-    }
-}
-
-/* remove footer on smaller screens */
-
-@media (max-width: 780px) {
-    .footer {
-        display : none ; 
-        visibility : hidden;
-    }
-}
-
-/* footer styling basic outline taken from colorlib.com and customised  */
-.footer{
-    width: 100%;
-    background: #ADB993;   
-}
-.footer-title{
-	position: relative;
-    color: #555555;
-	font-size: 24px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #555555;
-}
-
-.footer-title a{
-	padding: 10px 0;
-	border-bottom: 1px solid #555555;
-	color: #fff;
-	display: block;
-	transition: color 0.8s ease-in-out;
-}
-
-.footer-title:hover {
-    color: #000000;
-    border-bottom: 1px solid #5c8374;
-}
-
-.footer-social-links li{
-	display: inline-block;
-}
-
-.one-footer-link a:hover {
-    text-decoration: none;
-}
-
-.footer-social-links a{
-	width: 40px;
-	height: 40px;
-	font-size: 16px;
-	float: left;
-	margin-right: 10px;
-	padding: 10px;
-	border-radius: 50px;
-	text-align: center;
-	color: #fff;
-	line-height: 1;
-	-webkit-transition: background 0.3s ease-in-out;
-	-moz-transition: background 0.3s ease-in-out;
-	transition: background 0.3s ease-in-out;
-  background:#555555;
-}
-.footer-social-links a:hover {
-	background: greenyellow;
 }
