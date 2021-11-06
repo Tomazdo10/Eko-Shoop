@@ -4,7 +4,7 @@
 }
 
 #profile-update-form input::placeholder{
-    color:aquamarine;
+    color:black;
 }
 
 #id_default_country,
@@ -13,5 +13,5 @@
 }
 
 #id_default_country option:first-child {
-    color:aquamarine;
+    color:black;
 }
